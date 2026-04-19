@@ -1,0 +1,14 @@
+<h2>Alle Mitglieder</h2>
+
+<div class="members">
+{% for m in members %}
+    <div class="card">
+        <h3>{{ m.name }}</h3>
+        <p>ID: {{ m.id }}</p>
+
+        <a href="/server/{{ guild_id }}/member/{{ m.id }}">
+            <button>Profil öffnen</button>
+        </a>
+    </div>
+{% endfor %}
+</div>
