@@ -1,8 +1,7 @@
-discord.py
 fastapi
 uvicorn
+jinja2
 python-dotenv
 httpx
 itsdangerous
 python-multipart
-jinja2
